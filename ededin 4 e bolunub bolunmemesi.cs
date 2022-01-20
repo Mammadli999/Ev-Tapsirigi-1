@@ -7,13 +7,11 @@ namespace ConsoleApp4
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Bir Reqem Yaz");
+            int a = 83; 
 
-            int reqem = Convert.ToInt32(Console.ReadLine());
+            int b = a % 4;
 
-            int a = reqem % 4;
-
-            if (a == 0)
+            if (b == 0)
             {
                 Console.WriteLine("Bolunur");
             }
